@@ -31,7 +31,7 @@ JOBS = [
 
 @app.route("/")
 def hello_shubham():
-   return render_template('home.html', jobs=JOBS, first_name='Shubham')  
+   return render_template('home.html', jobs=JOBS, first_name='Gamma')  
 
 @app.route("/api/jobs")
 def list_jobs():
